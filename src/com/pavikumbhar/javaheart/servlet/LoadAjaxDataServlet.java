@@ -43,7 +43,7 @@ public class LoadAjaxDataServlet extends HttpServlet {
 		List<Person> personList=new ArrayList<Person>();
 		personList.add(new Person("Pavi Kumbhar", "pavikumbhar@mail.com"));
 		personList.add(new Person("Kritika", "kritika@mail.com"));
-		personList.add(new Person("Managesh", "managesh@mail.com"));
+		personList.add(new Person("Mangesh", "mangesh@mail.com"));
 		personList.add(new Person("Aditi", "aditi@mail.com"));
 		    String json = new Gson().toJson(personList);
 
@@ -59,7 +59,7 @@ public class LoadAjaxDataServlet extends HttpServlet {
 		List<Person> personList=new ArrayList<Person>();
 		personList.add(new Person("Pavi Kumbhar", "pavikumbhar@mail.com"));
 		personList.add(new Person("Kritika", "kritika@mail.com"));
-		personList.add(new Person("Managesh", "managesh@mail.com"));
+		personList.add(new Person("Mangesh", "mangesh@mail.com"));
 		personList.add(new Person("Aditi", "aditi@mail.com"));
 		
   result.append("<div class=\"table-responsive\">")
